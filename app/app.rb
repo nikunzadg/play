@@ -11,7 +11,9 @@ module Play
 
     # Include our Sinatra Helpers.
     include Play::Helpers
-
+    
+    # Added extra comments to here for a change
+    
     # Set up sessions and ensure we have a constant session_secret so that in
     # development mode `shotgun` won't regenerate a session secret and
     # invalidate all of our sessions.
